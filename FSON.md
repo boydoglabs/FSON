@@ -1,4 +1,4 @@
-# FSON RFC
+# FileSystem Object Notation (FSON) RFC
 
 ### What is FSON?
 
