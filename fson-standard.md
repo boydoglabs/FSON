@@ -14,7 +14,7 @@ For example, the object:
 }
 ```
 
-Is equivalent in FSON to:
+Is equivalent to:
 
 * data/
   * age _(file contents: 20)_
@@ -24,7 +24,7 @@ Is equivalent in FSON to:
     * 1 _(file contents: "green")_
     * 2 _(file contents: "blue")_
 
-	### Why?
+### Why?
 
  * So that real-time applications can edit each element individually without raising conflicts.
  * So that a GIT versioned FSON shows the evolution of each key/value as a single item.
