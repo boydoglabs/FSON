@@ -16,6 +16,8 @@ FileSystem Object Notation or **FSON** is an open-standard format to describe JS
  * "_" becomes "__"
  * " " becomes "-"
 
+ Sources: https://www.dwheeler.com/essays/fixing-unix-linux-filenames.html, https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names, https://en.wikipedia.org/wiki/Filename#Reserved_characters_and_words
+
 ### Example
 
 ```javascript
