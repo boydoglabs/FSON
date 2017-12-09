@@ -4,7 +4,14 @@
 
 FileSystem Object Notation or **FSON** is an open-standard format to describe JSON objects in a folder and file structure.
 
-For example, the object:
+### Why?
+
+ * So that real-time applications can edit each element individually without raising conflicts.
+ * So that, in a UNIX system, only certain users/groups can read/write specific keys/values.
+ * So that a GIT versioned FSON shows the evolution of each key/value as a single item.
+
+
+### Example
 
 ```javascript
 {
@@ -24,8 +31,3 @@ Is equivalent to:
     * 1 _(file contents: "green")_
     * 2 _(file contents: "blue")_
 
-### Why?
-
- * So that real-time applications can edit each element individually without raising conflicts.
- * So that a GIT versioned FSON shows the evolution of each key/value as a single item.
- * So that, in a UNIX system, only certain users/groups can read/write specific keys/values.
