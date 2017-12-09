@@ -10,6 +10,11 @@ FileSystem Object Notation or **FSON** is an open-standard format to describe JS
  * So that, in a UNIX system, only certain users/groups can read/write specific keys/values.
  * So that a GIT versioned FSON shows the evolution of each key/value as a single item.
 
+### Rules
+
+ * "X" becomes "_x"
+ * "_" becomes "__"
+ * " " becomes "-"
 
 ### Example
 
